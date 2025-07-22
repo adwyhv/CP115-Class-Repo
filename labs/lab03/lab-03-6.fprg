@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-6"/>
+        <attribute name="authors" value="Rabiah"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-22 11:50:14 PM"/>
+        <attribute name="created" value="UmFiaWFoO0RFU0tUT1AtUEg2UU05MjsyMDI1LTA3LTIyOzExOjMwOjEyIFBNOzI5MDk="/>
+        <attribute name="edited" value="UmFiaWFoO0RFU0tUT1AtUEg2UU05MjsyMDI1LTA3LTIyOzExOjUwOjE0IFBNOzE7MzAyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="builtInHouseLength"/>
+            <input variable="builtInHouseWidth"/>
+            <input variable="houseLength"/>
+            <input variable="housewidth"/>
+            <declare name="builtInHouseArea" type="Real" array="False" size=""/>
+            <assign variable="builtInHouseArea" expression="builtInHouseLength * builtInHouseWidth"/>
+            <declare name="houseArea" type="Real" array="False" size=""/>
+            <assign variable="houseArea" expression="houseLength * houseWidth"/>
+            <assign variable="mowYard" expression="houseArea - builtInHouseArea"/>
+            <assign variable="wage" expression="mowYard * 2"/>
+        </body>
+    </function>
+</flowgorithm>

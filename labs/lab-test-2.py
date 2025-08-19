@@ -1,0 +1,2 @@
+information = "name:Ahmad Bin Abu\t\tMatric. No:MS2025123499\n*\t\t\t*\n**\t\t**\n***\t***\n********\n***\t***\n**\t\t**\n*\t\t\t*\nThis is my\n\t second\n\t\tassignment\ni want 2x10 marks,which is 20 full marks"
+print(information)

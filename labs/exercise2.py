@@ -1,10 +1,10 @@
-#using single quotes that contains a sentence with double quotes
-welcome = 'hello "wiyah"'
-print(welcome)
-#using double quotes that contains a sentence with an apostrophe (single quote)
-kata_kata= "its time to 'tidur'"
-print(kata_kata)
-#Create a multi-line string using triple quotes that contains both single and double quotes
-long_text="""saya mengantuk bah sudah,bolehkah saya balik,cam mau saja saya teriak'moo balekk'
-          "bolehkah saya balik dulu" ya ges"""
-print(long_text)
+employee_name = input()
+base_salary = float(input())
+overtime_hours = int(input())
+tax_status = input()
+
+# TODO: Your code here
+
+print(employee_name)
+print(tax_rate)
+print(f"{net_salary:.2f}")

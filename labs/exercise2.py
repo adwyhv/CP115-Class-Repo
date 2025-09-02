@@ -3,8 +3,7 @@ base_salary = float(input())
 overtime_hours = int(input())
 tax_status = input()
 
-# TODO: Your code here
 
 print(employee_name)
-print(tax_rate)
+print(tax_status)
 print(f"{net_salary:.2f}")

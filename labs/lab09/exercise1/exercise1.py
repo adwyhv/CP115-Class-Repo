@@ -11,7 +11,7 @@ elif gpa>=3.5 and credit_hours>=12:
 elif gpa >= 2.0 :
     classification= "Good Standing"
 elif gpa < 2.0:
-    classification="acadamic probation"
+    classification="Academic Probation"
 else:
     print("cannot qualify")
 
